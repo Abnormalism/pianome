@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="piano">
+      <div class="piano_body">
+        <div class="piano_speaker"></div>
+        <div class="piano_interface">
+          <div class="piano_controls">
+            <h4 class="piano_heading">PIANO</h4>
+            <label
+              ><input
+                type="radio"
+                class="piano_control_option"
+                name="control"
+                value="letterNotes"
+                checked
+              />Letter Notes</label
+            >
+            <label
+              ><input type="radio" class="piano_control_option" name="control"
+              value="keyboard"" />Keyboard</label
+            >
+            <label
+              ><input type="radio" class="piano_control_option" name="control"
+              value="none"" />None</label
+            >
+          </div>
+          <div class="piano_autoplay">
+            <h2 class="piano_play-btn">Play Piano</h2>
+          </div>
+        </div>
+        <div class="piano_speaker"></div>
+      </div>
+      <div class="piano_keyboard"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
